@@ -15,7 +15,7 @@ const Stocks = () => {
 
   useEffect(() => {
     fetchStock();
-  })
+  });
 
   const fetchStock = () => {
     const API_KEY = '9OLZU016V28ZXD4X';
